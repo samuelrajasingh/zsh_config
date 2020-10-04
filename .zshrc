@@ -5,6 +5,18 @@ export TERM="xterm-256color"
 source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# manjaro
+# Source manjaro-zsh-configuration
+
+# if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
+#  source /usr/share/zsh/manjaro-zsh-config
+# fi
+# Use manjaro zsh prompt
+# if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
+#  source /usr/share/zsh/manjaro-zsh-prompt
+# fi
+
+
 #History settings
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=100000
